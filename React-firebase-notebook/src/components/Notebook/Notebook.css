@@ -1,0 +1,66 @@
+.notebook {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+.notebook .notebookInfo {
+  background: rgba(209, 97, 175, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(135, 31, 100, 0.37);
+  backdrop-filter: blur(2.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 1rem;
+  width: 20rem !important;
+  margin: 0rem auto;
+}
+
+.notebook .notebookInfo .notebookInfo-title {
+  background: rgba(212, 134, 98, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(135, 31, 130, 0.37);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notebookInfo-title h3 {
+  padding-left: 1rem;
+}
+
+.notebookInfo-title .remove {
+  padding-right: 1rem;
+}
+
+.notebook .notebookInfo .notebookInfo-title {
+  color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.notebook .notebookInfo .notebookInfo-title .remove {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.notebook .notebookInfo .notebookInfo-description {
+  padding: 10px;
+}
+
+.remove {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .notebook {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
