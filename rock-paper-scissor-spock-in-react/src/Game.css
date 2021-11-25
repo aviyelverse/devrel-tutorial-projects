@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,100;1,200;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-weight: 900;
+  font-size: 30px;
+  font-style: bold;
+  margin: 3px 200px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .section {
+  width: 350px;
+  margin: 80px 50px 5px 50px;
+}
+.section {
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.5),
+    0 6px 20px 5px rgba(0, 0, 0, 0.19);
+}
+.section .info {
+  background: rgb(10, 10, 10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.info span,
+.info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 10px;
+  color: white;
+}
+.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(41, 40, 40);
+  height: 220px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.show {
+  font-size: 100px;
+}
+h2 {
+  display: flex;
+  font-weight: bold;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 100px;
+}
+.attack-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 100px;
+  padding-top: 150px;
+}
+.attack-btn button {
+  margin: 0 30px;
+  padding: 25px;
+  border-radius: 45px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgb(41, 40, 40);
+  font-size: 33px;
+  color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+  box-shadow: 0 5px 5px rgb(51, 51, 51);
+  transform: translateY(4px);
+}
