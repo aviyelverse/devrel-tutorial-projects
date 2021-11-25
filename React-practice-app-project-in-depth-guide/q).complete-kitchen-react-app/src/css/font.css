@@ -1,0 +1,6 @@
+@font-face {
+    font-family:dance;
+    src: url('../fonts/Dance.woff') format(woff);
+    font-weight: bold;
+    font-style: italic;
+}

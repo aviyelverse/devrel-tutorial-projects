@@ -1,0 +1,44 @@
+.btn{
+    border:none;
+    background:none;
+    outline:none;
+    font-size:inherit;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    padding:5px 20px;
+}
+
+.btn--primary{
+    color:white;
+    background: #8739FC;
+background: -webkit-linear-gradient(bottom left, #8739FC, #467EC8);
+background: -moz-linear-gradient(bottom left, #8739FC, #467EC8);
+background: linear-gradient(to top right, #8739FC, #467EC8);
+
+}
+
+.btn--primary:hover{
+    background: #A168F9;
+background: -webkit-linear-gradient(bottom left, #A168F9, #759ACA);
+background: -moz-linear-gradient(bottom left, #A168F9, #759ACA);
+background: linear-gradient(to top right, #A168F9, #759ACA);
+    
+}
+
+
+.btn--danger{
+    color:white;
+    background: #ee0979;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.btn--danger:hover{
+    background: #ff7e5f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}

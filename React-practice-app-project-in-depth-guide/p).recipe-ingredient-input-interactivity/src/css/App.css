@@ -1,0 +1,27 @@
+@import-normalize;
+@import 'font.css';
+@import 'recipe.css';
+@import 'recipe-list.css';
+@import 'button.css';
+@import 'recipe-edit.css';
+
+*,*::before,*::after{
+  font-family: dance;
+  box-sizing: border-box;
+}
+
+
+body{
+  padding:0;
+  margin:0;
+}
+
+
+html{
+  font-size:25px;
+}
+
+/* utility class */
+.mr-1{
+  margin-right: 8px;
+}

@@ -1,0 +1,19 @@
+@import-normalize;
+@import '../css/font.css';
+@import '../css/button.css';
+
+*,*::before,*::after{
+  font-family: dance;
+}
+
+
+body{
+  padding:0;
+  margin:0;
+}
+
+
+html{
+  font-size:25px;
+}
+
