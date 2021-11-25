@@ -1,0 +1,50 @@
+{
+  "name": "@pramitmarattha/template-grabber",
+  "version": "1.0.0",
+  "description": "A Command Line Interface ( to automatically setup pre-configured JavaScript and various other frameworks initial project template ) crafted using NodeJS and external third-party library",
+  "main": "src/index.js",
+  "bin": {
+    "@pramitmarattha/template-grabber": "bin/template-grabber",
+    "template-grabber": "bin/template-grabber"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramit-marattha/Template-grabber-Node-CLI.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "line",
+    "interface",
+    "javascript",
+    "react",
+    "generator",
+    "template",
+    "project",
+    "vite",
+    "vue",
+    "auto-generator",
+    "template-grabber"
+  ],
+  "author": "pramitmarattha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pramit-marattha/Template-grabber-Node-CLI/issues"
+  },
+  "dependencies": {
+    "arg": "^5.0.1",
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "execa": "^5.1.1",
+    "inquirer": "^8.2.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
