@@ -1,0 +1,105 @@
+.noteadd {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+}
+.noteadd h1 {
+  display: flex;
+  background: rgba(255, 255, 255, 0.15);
+  justify-content: center;
+  align-items: center;
+  color: #8661d1;
+  font-family: "poppins";
+  margin-bottom: 10px;
+}
+
+input {
+  border-style: none;
+  background: transparent;
+  outline: none;
+}
+
+textarea {
+  border-style: none;
+  background: transparent;
+  outline: none;
+}
+
+.noteadd-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 400px;
+  height: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1rem;
+  background: white;
+}
+
+.noteadd-header input {
+  flex-grow: 1;
+  color: white;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+.noteadd-description {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1rem;
+  background: white;
+}
+
+.noteadd-header textarea {
+  flex-grow: 1;
+  color: white;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+.noteadd .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.noteadd-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #8661d1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(109, 57, 129);
+}
+
+button:hover {
+  background-color: #906ed3;
+}
+
+button:active {
+  background-color: #fd5252e5;
+  box-shadow: 0 5px rgb(212, 93, 93);
+  transform: translateY(4px);
+}
