@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,200;0,400;1,200;1,300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right,#00cfde , #05a660);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
