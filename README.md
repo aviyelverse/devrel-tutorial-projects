@@ -1,8 +1,5 @@
-Do you want to pursue a more profitable professional path? Or have you spent a significant amount of time and effort deciding on a technological stack? This is the most thorough set of MERN stack tutorials you'll ever come across. It includes five fully functional MERN-based projects. Freshers, experienced professionals, and senior developers will benefit from a variety of projects that cover not only the fundamentals of MongoDB, Express, React JS, and Node, but also the most sophisticated and complicated stuffs. This blog article will provide detailed instructions for anyone wishing to practice and improve their MERN stack skills. I propose that you thoroughly read everything ahead of time and practice and refine your MERN stack knowledge.
+Even a few years ago, web application development was not what it is today. Nowadays, there are so many options that the uninitiated are frequently perplexed as to what is best for them. This applies not only to the overall stack but also to the development tools; there are so many options. This repo contains the lists of all the article projects . 
 
-Even a few years ago, web application development was not what it is today. Nowadays, there are so many options that the uninitiated are frequently perplexed as to what is best for them. This applies not only to the overall stack but also to the development tools; there are so many options. This blog tutorial asserts that the MERN stack is ideal for developing a full web application, and it walks the reader through the entire process in a very detailed manner.
-
-So, what exactly is the MERN stack?
 
 ![MERN Stack](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nf7f3fqtig3iisd1fsiz.png)
 
