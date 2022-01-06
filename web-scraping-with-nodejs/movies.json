@@ -1,0 +1,18 @@
+[
+  {
+    "title": "The Godfather",
+    "rating": "9.2/10",
+    "imagePoster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+    "ratingAmount": "1.7M",
+    "releaseYear": "1972",
+    "moviesGenres": ["Crime", "Drama"]
+  },
+  {
+    "title": "The Godfather: Part II",
+    "rating": "9.0/10",
+    "imagePoster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+    "ratingAmount": "1.2M",
+    "releaseYear": "1974",
+    "moviesGenres": ["Crime", "Drama"]
+  }
+]
