@@ -66,7 +66,7 @@ We have created a completely free eBook for you to download in the link below.
 
 ---
 
-## Download for absolutely free [here]()
+## Download for absolutely free [here](https://github.com/aviyelverse/devrel-tutorial-projects/raw/main/mern-ebook/MERN%20eBook.pdf)
 
 ---
 
